@@ -50,7 +50,7 @@ apt-get update
 ```
 docker pull nginx
 ```
-Запускаем контейнер на 80 порте:  
+Запускаем контейнер на 80 порту:  
 ```
 docker run --rm -d --anme nginx -v /data/app:/var/www/html -p 0.0.0.0:80:80 nginx
 ```
