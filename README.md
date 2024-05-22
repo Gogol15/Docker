@@ -80,4 +80,5 @@ nano /usr/share/nginx/html/index.html
 ```
 В нём меняем заголовок и, по желанию, описание:
 
-![image](https://github.com/Gogol15/Docker/assets/79337104/e8c927ee-ee06-41c4-8a91-480869e057d5)
+![image](https://github.com/Gogol15/Docker/assets/79337104/9521a416-fd40-4159-94c2-40d62c42f560)
+
