@@ -142,7 +142,7 @@ def read_item(item_id: int, q: Union[str, None] = None):
 ```
 Далее в директории `/fastapi` создаём файл Dockerfile и заполняем его
 ```
-nano /fastapi/Dockerfile
+>nano /fastapi/Dockerfile
 
 FROM python:3.9
 WORKDIR /code 
