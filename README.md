@@ -140,10 +140,9 @@ def read_root():
 def read_item(item_id: int, q: Union[str, None] = None):
     return {"item_id": item_id, "q": q}
 ```
-Далее в директории `/fastapi` создаём файл Dockerfile и заполняем его
-```
->nano /fastapi/Dockerfile
+Далее в директории `/fastapi` создаём файл Dockerfile `nano /fastapi/Dockerfile` и заполняем его
 
+```
 FROM python:3.9
 WORKDIR /code 
 COPY ./requirements.txt /code/requirements.txt# 
