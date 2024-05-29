@@ -177,6 +177,6 @@ __Цель задания:__
 ### Выполнение задания
 Запускаем контейнер PostgreSQL со всеми нужными нам настройками
 ```
-docker run --name college-pg -p 5433:5433 -e POSTGRES_USER=Student -e POSTGRES_PASSWORD=StudentPass postgres:16.3
+docker run --name college-pg -p 5433:5433 -e POSTGRES_USER=Student -e POSTGRES_PASSWORD=StudentPass -e POSTGRES_DB=postgresdb -d postgres:16.3
 ```
 Устанавливаем программу __pgAdmin__ и проверяем доступность нашей базы данных
