@@ -159,7 +159,7 @@ docker build -t fastapi /fastapi
 ```
 docker run -d --name fastapi -p 80:80 fastapi
 ```
-Чтобы проверить работу контейнера мы должны перейти по ссылке: http://IP_адрес_вашей_машины/items/5?q=somequery
+Чтобы проверить работу контейнера мы должны перейти по ссылке: `http://IP_адрес_вашей_машины/items/5?q=somequery`
 Там мы увидим текст на подобии 
 ```
 {"item_id": 5, "q": "somequery"}
