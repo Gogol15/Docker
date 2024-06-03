@@ -201,7 +201,7 @@ cd compose-postgres
 ```
 Создаём в ней файл __docker-compose.yml__ (или compose.yml)
 ```
-nano docker-compose
+nano docker-compose.yml
 ```
 И заполняем его следующим:
 ```
