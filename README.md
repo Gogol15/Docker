@@ -212,6 +212,7 @@ services:
     container_name: postgres_container
     image: postgres:16.3
     environment:
+      POSTGRES_DB: ${POSTGRES_DB:-postgresdb}
       POSTGRES_USER: ${POSTGRES_USER:-Student}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-StudentPass}
       PGDATA: /data/postgres
