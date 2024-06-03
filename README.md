@@ -210,7 +210,7 @@ version: '3.9'
 services:
   postgres:
     container_name: postgres_container
-    image: postgres
+    image: postgres:16.3
     environment:
       POSTGRES_USER: ${POSTGRES_USER:-Student}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-StudentPass}
