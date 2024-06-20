@@ -96,7 +96,12 @@ pyton3 -m venv docker
 ```
 source docker/bin/activate
 ```
-В нём открываем файл `requirements.txt`, куда мы запишем наши зависимости
+Далее мы создаём новую директорию, называем её по своему усмотрению и заходим в неё
+```
+mkdir /fastapi
+cd /fastapi
+```
+В ней открываем файл `requirements.txt`, куда мы запишем наши зависимости
 ```
 nano requirements.txt
 ```
@@ -110,12 +115,7 @@ uvicorn>=0.15.0,<0.16.0
 ```
 pip install -r requirements.txt
 ```
-Далее мы создаём новую директорию, называем её по своему усмотрению и заходим в неё
-```
-mkdir /fastapi
-cd /fastapi
-```
-В ней создаём директорию `app`, переходим в неё и создаём 2 файла: `__init__.py` и `main.py`. Файл `__init__.py` оставляем пустым
+В ней же создаём директорию `app`, переходим в неё и создаём 2 файла: `__init__.py` и `main.py`. Файл `__init__.py` оставляем пустым
 ```
 mkdir /fastapi/app
 cd /fastapi/app
